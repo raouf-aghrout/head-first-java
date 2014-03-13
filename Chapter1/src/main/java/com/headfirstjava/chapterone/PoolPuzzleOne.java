@@ -2,7 +2,7 @@ package com.headfirstjava.chapterone;
 
 public class PoolPuzzleOne {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int x = 0;
 
@@ -13,7 +13,7 @@ public class PoolPuzzleOne {
                 System.out.print(" ");
             }
 
-           System.out.print("n");
+            System.out.print("n");
 
             if (x > 1) {
                 System.out.print(" oyster!");

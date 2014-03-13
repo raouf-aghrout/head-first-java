@@ -2,7 +2,7 @@ package com.headfirstjava.chapterone;
 
 public class Shuffle1 {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int x = 3;
 

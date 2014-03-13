@@ -2,7 +2,7 @@ package com.headfirstjava.chapterone;
 
 public class BeerSong {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int numberOfBeers = 99;
         String word = "bottles";

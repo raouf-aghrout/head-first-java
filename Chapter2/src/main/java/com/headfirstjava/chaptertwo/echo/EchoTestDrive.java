@@ -2,7 +2,7 @@ package com.headfirstjava.chaptertwo.echo;
 
 public class EchoTestDrive {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         Echo echoOne = new Echo();
         Echo echoTwo = new Echo();
@@ -15,7 +15,7 @@ public class EchoTestDrive {
             echoOne.count = echoOne.count + 1;
 
             if (x == 3) {
-                echoTwo.count  = echoTwo.count + 1;
+                echoTwo.count = echoTwo.count + 1;
             }
 
             if (x > 0) {

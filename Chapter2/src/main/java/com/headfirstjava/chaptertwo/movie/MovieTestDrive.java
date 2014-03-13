@@ -2,7 +2,7 @@ package com.headfirstjava.chaptertwo.movie;
 
 public class MovieTestDrive {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         Movie movieOne = new Movie();
         movieOne.title = "Gone with the Stock";

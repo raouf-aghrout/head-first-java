@@ -2,7 +2,7 @@ package com.headfirstjava.chaptertwo.tapedeck;
 
 public class TapeDeckTestDrive {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         TapeDeck tapeDeck = new TapeDeck();
         tapeDeck.canRecord = true;

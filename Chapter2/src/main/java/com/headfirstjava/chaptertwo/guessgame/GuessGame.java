@@ -19,7 +19,7 @@ public class GuessGame {
         boolean playerTwoIsRight = false;
         boolean playerThreeIsRight = false;
 
-        int targetNumber = (int) (Math.random() *10);
+        int targetNumber = (int) (Math.random() * 10);
         System.out.println("I'm thinking of a numberGuessed between 0 and 9...");
 
         while (true) {

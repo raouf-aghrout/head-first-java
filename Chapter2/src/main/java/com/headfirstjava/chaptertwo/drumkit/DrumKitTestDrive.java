@@ -2,7 +2,7 @@ package com.headfirstjava.chaptertwo.drumkit;
 
 public class DrumKitTestDrive {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         DrumKit drumKit = new DrumKit();
         drumKit.playSnare();

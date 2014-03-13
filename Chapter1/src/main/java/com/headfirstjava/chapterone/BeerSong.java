@@ -3,22 +3,23 @@ package com.headfirstjava.chapterone;
 public class BeerSong {
 
     public static void main (String[] args) {
-        int beerNum = 99;
+
+        int numberOfBeers = 99;
         String word = "bottles";
 
-        while (beerNum > 0) {
+        while (numberOfBeers > 0) {
 
-            if (beerNum < 2) {
+            if (numberOfBeers < 2) {
                 word = "bottle";
             }
 
-            System.out.println(beerNum + " " + word + " of beer on the wall!");
-            System.out.println(beerNum + " " + word + " of beer!");
-            System.out.println("Take one down.");
-            System.out.println("Pass it around.");
-            beerNum = beerNum - 1;
+            System.out.println(numberOfBeers + " " + word + " of beer on the wall!");
+            System.out.println(numberOfBeers + " " + word + " of beer!");
+            System.out.println("Take one down!");
+            System.out.println("Pass it around!");
+            numberOfBeers = numberOfBeers - 1;
 
-            if (beerNum < 1) {
+            if (numberOfBeers < 1) {
                 System.out.println("No more bottles of beer on the wall!");
             }
         }

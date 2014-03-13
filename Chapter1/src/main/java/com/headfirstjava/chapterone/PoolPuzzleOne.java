@@ -3,10 +3,11 @@ package com.headfirstjava.chapterone;
 public class PoolPuzzleOne {
 
     public static void main (String[] args) {
+
         int x = 0;
 
-        while(x < 4) {
-            System.out.print("a");
+        while (x < 4) {
+            System.out.print("A");
 
             if (x < 1) {
                 System.out.print(" ");
@@ -15,7 +16,7 @@ public class PoolPuzzleOne {
            System.out.print("n");
 
             if (x > 1) {
-                System.out.print(" oyster");
+                System.out.print(" oyster!");
                 x = x + 2;
             }
 

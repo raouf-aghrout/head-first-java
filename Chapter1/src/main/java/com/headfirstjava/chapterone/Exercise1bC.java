@@ -1,4 +1,6 @@
-public class Exercise1bB {
+package com.headfirstjava.chapterone;
+
+public class Exercise1bC {
 
     public static void main (String[] args) {
         int x = 5;

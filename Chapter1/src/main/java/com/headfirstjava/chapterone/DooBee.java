@@ -1,3 +1,5 @@
+package com.headfirstjava.chapterone;
+
 public class DooBee {
 
     public static void main (String[] args) {

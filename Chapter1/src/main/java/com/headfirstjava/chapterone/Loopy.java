@@ -1,3 +1,5 @@
+package com.headfirstjava.chapterone;
+
 public class Loopy {
 
     public static void main (String[] args) {

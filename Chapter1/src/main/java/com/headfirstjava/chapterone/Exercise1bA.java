@@ -1,3 +1,5 @@
+package com.headfirstjava.chapterone;
+
 public class Exercise1bA {
 
     public static void main (String[] args) {

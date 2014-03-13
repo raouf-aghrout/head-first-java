@@ -1,3 +1,5 @@
+package com.headfirstjava.chapterone;
+
 public class IfTest2 {
 
     public static void main (String[] args) {

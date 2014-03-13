@@ -17,5 +17,6 @@
     <modules>
         <module>Chapter1</module>
         <module>Chapter2</module>
+        <module>Chapter3</module>
     </modules>
 </project>

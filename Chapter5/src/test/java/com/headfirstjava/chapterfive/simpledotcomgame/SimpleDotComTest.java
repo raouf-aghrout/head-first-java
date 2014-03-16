@@ -1,4 +1,4 @@
-package com.headfirstjava.chapterfive;
+package com.headfirstjava.chapterfive.simpledotcomgame;
 
 public class SimpleDotComTest {
 

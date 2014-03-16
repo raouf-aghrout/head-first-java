@@ -1,6 +1,6 @@
 package com.headfirstjava.chapterfive.simpledotcomgame;
 
-public class SimpleDotComeTestDrive {
+public class SimpleDotComTestDrive {
 
     public static void main(String[] args) {
         SimpleDotCom simpleDotCom = new SimpleDotCom();

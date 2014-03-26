@@ -9,7 +9,7 @@ public class MyDogList {
 
         if (nextIndex < dogs.length) {
             dogs[nextIndex] = d;
-            System.out.println("Dog added at: " +nextIndex);
+            System.out.println("Dog added at: " + nextIndex);
             nextIndex++;
         }
     }

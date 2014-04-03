@@ -10,7 +10,6 @@ public class StaticTests extends StaticSuper {
     }
 
     public StaticTests() {
-        super();
         System.out.println("Constructor!");
     }
 

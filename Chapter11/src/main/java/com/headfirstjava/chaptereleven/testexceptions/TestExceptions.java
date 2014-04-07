@@ -27,6 +27,6 @@ public class TestExceptions {
         }
 
         System.out.println("End risky!");
-        return;
+        // return;
     }
 }

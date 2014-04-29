@@ -7,14 +7,15 @@ public class MiniMusicCmdLine {
     public static void main(String[] args) {
 
         MiniMusicCmdLine miniMusicCmdLine = new MiniMusicCmdLine();
+        miniMusicCmdLine.play(40, 70);
 
-        if (args.length < 2) {
+        /* if (args.length < 2) {
             System.out.println("Don't forget the instrument and note arguments!");
         } else {
             int instrument = Integer.parseInt(args[0]);
             int note = Integer.parseInt(args[1]);
             miniMusicCmdLine.play(instrument, note);
-        }
+        } */
     }
 
     private void play(int instrument, int note) {
@@ -47,7 +48,7 @@ public class MiniMusicCmdLine {
             sequencer.setSequence(sequence);
             sequencer.start();
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 }

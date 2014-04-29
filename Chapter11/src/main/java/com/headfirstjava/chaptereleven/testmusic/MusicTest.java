@@ -6,6 +6,11 @@ import javax.sound.midi.Sequencer;
 
 public class MusicTest {
 
+    public static void main(String[] args) {
+        MusicTest musicTest = new MusicTest();
+        musicTest.play();
+    }
+
     public void play() {
         try {
             Sequencer sequencer = MidiSystem.getSequencer();
@@ -13,10 +18,5 @@ public class MusicTest {
         } catch (MidiUnavailableException m) {
             System.out.println("Did not get a sequencer!");
         }
-    }
-
-    public static void main(String[] args) {
-        MusicTest musicTest = new MusicTest();
-        musicTest.play();
     }
 }

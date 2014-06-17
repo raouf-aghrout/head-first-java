@@ -2,7 +2,7 @@ package com.headfirstjava.chaptertwelve;
 
 import javax.swing.*;
 
-public class SimpleGUI1 {
+public class SimpleGUI1b {
 
     public static void main(String[] args) {
 

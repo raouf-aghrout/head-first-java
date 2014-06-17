@@ -7,53 +7,48 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class SimpleGUI1D {
 
-    private static JFrame jFrame;
-    private static JLabel jLabel;
+    JFrame frame;
+    JLabel label;
 
-    public static void main(String[] args) {
-
-        SimpleGUI1D simpleGUI1D = new SimpleGUI1D();
-        simpleGUI1D.initialise();
+    public static void main (String[] args) {
+        SimpleGUI1D gui = new SimpleGUI1D();
+        gui.go();
     }
 
-    public void initialise() {
-        jFrame = new JFrame();
-        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    public void go() {
+        frame = new JFrame();
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        JButton jButtonOne = new JButton("Change Label!");
-        jButtonOne.addActionListener(new LabelListener());
+        JButton labelButton = new JButton("Change Label");
+        labelButton.addActionListener(new LabelButtonListener());
 
-        JButton jButtonTwo = new JButton("Change Image Colour");
-        jButtonTwo.addActionListener(new ColourListener());
+        JButton colorButton = new JButton("Change Circle");
+        colorButton.addActionListener(new ColorButtonListener());
 
-        jLabel = new JLabel("This is a label!");
+        label = new JLabel("I'm a label");
+        RandomGradientCircleJPanel drawPanel = new RandomGradientCircleJPanel();
 
-        JPanel jPanel = new RandomGradientCircleJPanel();
+        frame.getContentPane().add(BorderLayout.SOUTH, colorButton);
+        frame.getContentPane().add(BorderLayout.CENTER, drawPanel);
+        frame.getContentPane().add(BorderLayout.EAST, labelButton);
+        frame.getContentPane().add(BorderLayout.WEST, label);
 
-        jFrame.getContentPane().add(BorderLayout.CENTER, jPanel);
-        jFrame.getContentPane().add(BorderLayout.EAST, jButtonOne);
-        jFrame.getContentPane().add(BorderLayout.SOUTH, jButtonTwo);
-        jFrame.getContentPane().add(BorderLayout.WEST, jLabel);
-
-        jFrame.setSize(600, 600);
-        jFrame.setVisible(true);
+        frame.setSize(600, 400);
+        frame.setVisible(true);
     }
 
-    class LabelListener implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            jLabel.setText("I've been changed!");
+    class LabelButtonListener implements ActionListener {
+        public void actionPerformed(ActionEvent event) {
+            label.setText("Ouch!");
         }
     }
 
-    class ColourListener implements ActionListener {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            jFrame.repaint();
+    class ColorButtonListener implements ActionListener {
+        public void actionPerformed(ActionEvent event) {
+            frame.repaint();
         }
     }
 }

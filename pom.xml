@@ -15,6 +15,8 @@
     </properties>
 
     <modules>
+        <module>AppendixA</module>
+        <module>AppendixB</module>
         <module>Chapter01</module>
         <module>Chapter02</module>
         <module>Chapter03</module>
@@ -27,5 +29,11 @@
         <module>Chapter10</module>
         <module>Chapter11</module>
         <module>Chapter12</module>
+        <module>Chapter13</module>
+        <module>Chapter14</module>
+        <module>Chapter15</module>
+        <module>Chapter16</module>
+        <module>Chapter17</module>
+        <module>Chapter18</module>
     </modules>
 </project>

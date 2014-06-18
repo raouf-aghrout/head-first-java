@@ -13,7 +13,7 @@ public class SimpleGUI1D {
     JFrame frame;
     JLabel label;
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         SimpleGUI1D gui = new SimpleGUI1D();
         gui.go();
     }

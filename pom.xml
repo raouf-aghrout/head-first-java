@@ -15,7 +15,6 @@
     </properties>
 
     <modules>
-        <module>AppendixB</module>
         <module>Chapter01</module>
         <module>Chapter02</module>
         <module>Chapter03</module>

@@ -10,6 +10,7 @@ public class Exercise1bA {
             if (x > 3) {
                 System.out.println("Big x!");
             }
+            x += 1;
         }
     }
 }
